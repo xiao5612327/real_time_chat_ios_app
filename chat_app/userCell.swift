@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 
 class UserCell: UITableViewCell{
-    
+    //this is test
     var message: Message? {
         didSet{
             
