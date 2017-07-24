@@ -20,7 +20,7 @@ extension UIImageView{
         
         if let cachedImage = imageCache.object(forKey: urlString as AnyObject) as? UIImage{
             self.image = cachedImage
-                //this is second testing 
+            print(12312312312)
             //this is a testing to pratice first branch
             return
         }
